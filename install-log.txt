@@ -1,0 +1,529 @@
+~/Projects/spiral                                                                                                                                        system 12:16:06
+❯ composer create-project spiral/app spiral-default-array-cache-alias-bug
+Creating a "spiral/app" project at "./spiral-default-array-cache-alias-bug"
+Installing spiral/app (3.7.0)
+  - Installing spiral/app (3.7.0): Extracting archive
+Created project in /Users/shanginn/Projects/spiral/spiral-default-array-cache-alias-bug
+> Installer\Internal\Installer::install
+
+   _____         _              _
+  / ____|       (_)            | |
+ | (___   _ __   _  _ __  __ _ | |
+  \___ \ | '_ \ | || '__|/ _` || |
+  ____) || |_) || || |  | (_| || |
+ |_____/ | .__/ |_||_|   \__,_||_|
+         | |
+         |_|
+
+  Which application preset do you want to install?
+  [1] Web
+  [2] Cli
+  [3] gRPC
+  Make your selection (default: 1): 1
+
+  Create a default application structure and demo data?
+  [1] Yes
+  [0] No
+  [?] Help
+  Make your selection (default: 1): 0
+
+  Would you like to use SAPI?
+  [1] Yes
+  [0] No
+  [?] Help
+  Make your selection (default: 0): 0
+
+  Do you need Cycle ORM?
+  [1] Yes
+  [0] No
+  Make your selection (default: 1): 1
+
+  Which Collections do you want to use with Cycle ORM?
+  [1] Doctrine Collections
+  [2] Laravel Collections
+  [3] Loophp Collections
+  [0] Use PHP array as the collection
+  Make your selection (default: 1): 1
+
+  Which validator component do you want to use?
+  [1] Spiral Validator
+  [2] Symfony Validator
+  [3] Laravel Validator
+  [0] None of the above
+  [?] Help
+  Make your selection (default: 1): 1
+
+  Do you want to use Queue component?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 0
+
+  Do you want to use Cache component?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 1
+
+  Do you want to use Mailer Component?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 0
+
+  Do you want to use Storage component?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 1
+
+  Which template engine do you want to use?
+  [1] Stempler
+  [2] Twig
+  [3] Plain PHP
+  Make your selection (default: 1): 1
+
+  Do you need Data Grid?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 0
+
+  Do you want to use the Event Dispatcher?
+  [1] Yes
+  [0] No
+  [?] Help
+  Make your selection (default: 0): 1
+
+  Do you need a cron jobs scheduler?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 1
+
+  Do you need Translator?
+  [1] Yes
+  [0] No
+  Make your selection (default: 1): 1
+
+  Do you need the Temporal?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 1
+
+  Do you need the RoadRunner Metrics?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 1
+
+  Do you need the Sentry?
+  [1] Yes
+  [0] No
+  Make your selection (default: 0): 1
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 172 installs, 0 updates, 0 removals
+  - Locking alexkart/curl-builder (1.0.9)
+  - Locking amphp/amp (v2.6.4)
+  - Locking amphp/byte-stream (v1.8.2)
+  - Locking brick/math (0.12.1)
+  - Locking buggregator/trap (1.11.0)
+  - Locking butschster/cron-expression-generator (v1.10.2)
+  - Locking carbonphp/carbon-doctrine-types (3.2.0)
+  - Locking cebe/markdown (1.2.1)
+  - Locking clue/stream-filter (v1.7.0)
+  - Locking cocur/slugify (v4.6.0)
+  - Locking codedungeon/php-cli-colors (1.12.2)
+  - Locking composer/pcre (3.3.1)
+  - Locking composer/semver (3.4.3)
+  - Locking composer/xdebug-handler (3.0.5)
+  - Locking cycle/annotated (v4.2.0)
+  - Locking cycle/database (2.11.0)
+  - Locking cycle/migrations (v4.2.3)
+  - Locking cycle/orm (v2.9.0)
+  - Locking cycle/schema-builder (v2.9.0)
+  - Locking cycle/schema-migrations-generator (2.2.0)
+  - Locking cycle/schema-renderer (1.2.0)
+  - Locking defuse/php-encryption (v2.4.0)
+  - Locking dnoegel/php-xdg-base-dir (v0.1.1)
+  - Locking doctrine/collections (1.8.0)
+  - Locking doctrine/deprecations (1.1.3)
+  - Locking doctrine/inflector (2.0.10)
+  - Locking doctrine/instantiator (2.0.0)
+  - Locking doctrine/lexer (3.0.1)
+  - Locking dragonmantank/cron-expression (v3.4.0)
+  - Locking egulias/email-validator (4.0.2)
+  - Locking felixfbecker/advanced-json-rpc (v3.2.1)
+  - Locking felixfbecker/language-server-protocol (v1.5.3)
+  - Locking fidry/cpu-core-counter (1.2.0)
+  - Locking google/common-protos (4.8.3)
+  - Locking google/protobuf (v4.28.2)
+  - Locking graham-campbell/result-type (v1.1.3)
+  - Locking grpc/grpc (1.57.0)
+  - Locking guzzlehttp/psr7 (2.7.0)
+  - Locking hamcrest/hamcrest-php (v2.0.1)
+  - Locking jean85/pretty-package-versions (2.0.6)
+  - Locking league/event (3.0.3)
+  - Locking league/flysystem (3.29.1)
+  - Locking league/flysystem-local (3.29.0)
+  - Locking league/mime-type-detection (1.16.0)
+  - Locking mockery/mockery (1.6.12)
+  - Locking monolog/monolog (3.7.0)
+  - Locking myclabs/deep-copy (1.12.0)
+  - Locking nesbot/carbon (3.8.0)
+  - Locking netresearch/jsonmapper (v4.5.0)
+  - Locking nette/php-generator (v4.1.6)
+  - Locking nette/utils (v4.0.5)
+  - Locking nikic/php-parser (v4.19.4)
+  - Locking nunomaduro/termwind (v2.2.0)
+  - Locking nyholm/psr7 (1.8.2)
+  - Locking paragonie/random_compat (v9.99.100)
+  - Locking phar-io/manifest (2.0.4)
+  - Locking phar-io/version (3.2.1)
+  - Locking php-http/curl-client (2.3.2)
+  - Locking php-http/discovery (1.20.0)
+  - Locking php-http/httplug (2.4.1)
+  - Locking php-http/message (1.16.2)
+  - Locking php-http/promise (1.3.1)
+  - Locking phpdocumentor/reflection-common (2.2.0)
+  - Locking phpdocumentor/reflection-docblock (5.4.1)
+  - Locking phpdocumentor/type-resolver (1.8.2)
+  - Locking phpoption/phpoption (1.9.3)
+  - Locking phpstan/phpdoc-parser (1.33.0)
+  - Locking phpunit/php-code-coverage (10.1.16)
+  - Locking phpunit/php-file-iterator (4.1.0)
+  - Locking phpunit/php-invoker (4.0.0)
+  - Locking phpunit/php-text-template (3.0.1)
+  - Locking phpunit/php-timer (6.0.0)
+  - Locking phpunit/phpunit (10.5.37)
+  - Locking psr/cache (3.0.0)
+  - Locking psr/clock (1.0.0)
+  - Locking psr/container (2.0.2)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/http-client (1.0.3)
+  - Locking psr/http-factory (1.1.0)
+  - Locking psr/http-message (2.0)
+  - Locking psr/http-server-handler (1.0.2)
+  - Locking psr/http-server-middleware (1.0.2)
+  - Locking psr/log (3.0.2)
+  - Locking psr/simple-cache (3.0.0)
+  - Locking ralouphie/getallheaders (3.0.3)
+  - Locking ramsey/collection (2.0.0)
+  - Locking ramsey/uuid (4.7.6)
+  - Locking react/promise (v2.11.0)
+  - Locking roadrunner-php/app-logger (1.2.0)
+  - Locking roadrunner-php/centrifugo (v2.2.0)
+  - Locking roadrunner-php/lock (1.0.0)
+  - Locking roadrunner-php/roadrunner-api-dto (v1.9.0)
+  - Locking roadrunner-php/version-checker (v1.0.1)
+  - Locking sebastian/cli-parser (2.0.1)
+  - Locking sebastian/code-unit (2.0.0)
+  - Locking sebastian/code-unit-reverse-lookup (3.0.0)
+  - Locking sebastian/comparator (5.0.3)
+  - Locking sebastian/complexity (3.2.0)
+  - Locking sebastian/diff (5.1.1)
+  - Locking sebastian/environment (6.1.0)
+  - Locking sebastian/exporter (5.1.2)
+  - Locking sebastian/global-state (6.0.2)
+  - Locking sebastian/lines-of-code (2.0.2)
+  - Locking sebastian/object-enumerator (5.0.0)
+  - Locking sebastian/object-reflector (3.0.0)
+  - Locking sebastian/recursion-context (5.0.0)
+  - Locking sebastian/type (4.0.0)
+  - Locking sebastian/version (4.0.1)
+  - Locking sentry/sentry (4.9.0)
+  - Locking spatie/array-to-xml (3.3.0)
+  - Locking spiral-packages/league-event (1.0.1)
+  - Locking spiral-packages/scheduler (2.3.1)
+  - Locking spiral-packages/yii-error-handler-bridge (1.1.2)
+  - Locking spiral/attributes (v3.1.7)
+  - Locking spiral/composer-publish-plugin (v1.1.2)
+  - Locking spiral/cycle-bridge (v2.10.0)
+  - Locking spiral/data-grid (v3.0.0)
+  - Locking spiral/data-grid-bridge (v3.0.1)
+  - Locking spiral/dumper (3.3.1)
+  - Locking spiral/framework (3.14.5)
+  - Locking spiral/goridge (v4.2.0)
+  - Locking spiral/nyholm-bridge (v1.3.0)
+  - Locking spiral/roadrunner (v2024.2.1)
+  - Locking spiral/roadrunner-bridge (v3.7.0)
+  - Locking spiral/roadrunner-cli (v2.6.0)
+  - Locking spiral/roadrunner-grpc (v3.4.0)
+  - Locking spiral/roadrunner-http (v3.5.1)
+  - Locking spiral/roadrunner-jobs (v4.6.0)
+  - Locking spiral/roadrunner-kv (v4.3.0)
+  - Locking spiral/roadrunner-metrics (v3.2.0)
+  - Locking spiral/roadrunner-tcp (v4.1.0)
+  - Locking spiral/roadrunner-worker (v3.6.0)
+  - Locking spiral/sentry-bridge (v2.3.0)
+  - Locking spiral/temporal-bridge (2.2.0)
+  - Locking spiral/testing (2.8.1)
+  - Locking spiral/validator (1.5.3)
+  - Locking symfony/clock (v7.1.1)
+  - Locking symfony/console (v7.1.5)
+  - Locking symfony/deprecation-contracts (v3.5.0)
+  - Locking symfony/event-dispatcher (v7.1.1)
+  - Locking symfony/event-dispatcher-contracts (v3.5.0)
+  - Locking symfony/filesystem (v7.1.5)
+  - Locking symfony/finder (v7.1.4)
+  - Locking symfony/http-client (v7.1.5)
+  - Locking symfony/http-client-contracts (v3.5.0)
+  - Locking symfony/mailer (v7.1.5)
+  - Locking symfony/mime (v7.1.5)
+  - Locking symfony/options-resolver (v7.1.1)
+  - Locking symfony/polyfill-ctype (v1.31.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.31.0)
+  - Locking symfony/polyfill-intl-idn (v1.31.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.31.0)
+  - Locking symfony/polyfill-mbstring (v1.31.0)
+  - Locking symfony/polyfill-php80 (v1.31.0)
+  - Locking symfony/polyfill-php83 (v1.31.0)
+  - Locking symfony/process (v7.1.5)
+  - Locking symfony/service-contracts (v3.5.0)
+  - Locking symfony/string (v7.1.5)
+  - Locking symfony/translation (v7.1.5)
+  - Locking symfony/translation-contracts (v3.5.0)
+  - Locking symfony/var-dumper (v7.1.5)
+  - Locking symfony/yaml (v7.1.5)
+  - Locking temporal/sdk (v2.11.0)
+  - Locking theseer/tokenizer (1.2.3)
+  - Locking vimeo/psalm (5.26.1)
+  - Locking vlucas/phpdotenv (v5.6.1)
+  - Locking webmozart/assert (1.11.0)
+  - Locking yiisoft/error-handler (3.3.0)
+  - Locking yiisoft/friendly-exception (1.1.0)
+  - Locking yiisoft/http (1.2.0)
+  - Locking yiisoft/injector (1.2.0)
+  - Locking yiisoft/strings (2.4.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 172 installs, 0 updates, 0 removals
+  - Downloading jean85/pretty-package-versions (2.0.6)
+  - Installing spiral/composer-publish-plugin (v1.1.2): Extracting archive
+php-http/discovery contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "php-http/discovery" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] y
+  - Installing php-http/discovery (1.20.0): Extracting archive
+  - Installing brick/math (0.12.1): Extracting archive
+  - Installing carbonphp/carbon-doctrine-types (3.2.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.31.0): Extracting archive
+  - Installing cocur/slugify (v4.6.0): Extracting archive
+  - Installing codedungeon/php-cli-colors (1.12.2): Extracting archive
+  - Installing composer/pcre (3.3.1): Extracting archive
+  - Installing symfony/polyfill-php83 (v1.31.0): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.31.0): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.31.0): Extracting archive
+  - Installing phpoption/phpoption (1.9.3): Extracting archive
+  - Installing graham-campbell/result-type (v1.1.3): Extracting archive
+  - Installing vlucas/phpdotenv (v5.6.1): Extracting archive
+  - Installing symfony/translation-contracts (v3.5.0): Extracting archive
+  - Installing symfony/translation (v7.1.5): Extracting archive
+  - Installing symfony/deprecation-contracts (v3.5.0): Extracting archive
+  - Installing psr/container (2.0.2): Extracting archive
+  - Installing symfony/service-contracts (v3.5.0): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.31.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.31.0): Extracting archive
+  - Installing symfony/mime (v7.1.5): Extracting archive
+  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v3.5.0): Extracting archive
+  - Installing symfony/event-dispatcher (v7.1.1): Extracting archive
+  - Installing psr/log (3.0.2): Extracting archive
+  - Installing doctrine/lexer (3.0.1): Extracting archive
+  - Installing egulias/email-validator (4.0.2): Extracting archive
+  - Installing symfony/mailer (v7.1.5): Extracting archive
+  - Installing symfony/finder (v7.1.4): Extracting archive
+  - Installing symfony/polyfill-intl-grapheme (v1.31.0): Extracting archive
+  - Installing symfony/string (v7.1.5): Extracting archive
+  - Installing symfony/console (v7.1.5): Extracting archive
+  - Installing psr/simple-cache (3.0.0): Extracting archive
+  - Installing psr/cache (3.0.0): Extracting archive
+  - Installing spiral/attributes (v3.1.7): Extracting archive
+  - Installing psr/http-message (2.0): Extracting archive
+  - Installing psr/http-server-handler (1.0.2): Extracting archive
+  - Installing psr/http-server-middleware (1.0.2): Extracting archive
+  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+  - Installing psr/http-factory (1.1.0): Extracting archive
+  - Installing guzzlehttp/psr7 (2.7.0): Extracting archive
+  - Installing nyholm/psr7 (1.8.2): Extracting archive
+  - Installing nikic/php-parser (v4.19.4): Extracting archive
+  - Installing nette/utils (v4.0.5): Extracting archive
+  - Installing nette/php-generator (v4.1.6): Extracting archive
+  - Installing myclabs/deep-copy (1.12.0): Extracting archive
+  - Installing monolog/monolog (3.7.0): Extracting archive
+  - Installing league/mime-type-detection (1.16.0): Extracting archive
+  - Installing league/flysystem (3.29.1): Extracting archive
+  - Installing league/flysystem-local (3.29.0): Extracting archive
+  - Installing doctrine/inflector (2.0.10): Extracting archive
+  - Installing paragonie/random_compat (v9.99.100): Extracting archive
+  - Installing defuse/php-encryption (v2.4.0): Extracting archive
+  - Installing spiral/framework (3.14.5): Extracting archive
+  - Installing cycle/database (2.11.0): Extracting archive
+  - Installing doctrine/deprecations (1.1.3): Extracting archive
+  - Installing doctrine/collections (1.8.0): Extracting archive
+  - Installing doctrine/instantiator (2.0.0): Extracting archive
+  - Installing webmozart/assert (1.11.0): Extracting archive
+  - Installing dragonmantank/cron-expression (v3.4.0): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.0.1): Extracting archive
+  - Installing jean85/pretty-package-versions (2.0.6): Extracting archive
+  - Installing nunomaduro/termwind (v2.2.0): Extracting archive
+  - Installing phar-io/version (3.2.1): Extracting archive
+  - Installing phar-io/manifest (2.0.4): Extracting archive
+  - Installing psr/http-client (1.0.3): Extracting archive
+  - Installing php-http/promise (1.3.1): Extracting archive
+  - Installing php-http/httplug (2.4.1): Extracting archive
+  - Installing clue/stream-filter (v1.7.0): Extracting archive
+  - Installing php-http/message (1.16.2): Extracting archive
+  - Installing phpstan/phpdoc-parser (1.33.0): Extracting archive
+  - Installing phpdocumentor/reflection-common (2.2.0): Extracting archive
+  - Installing phpdocumentor/type-resolver (1.8.2): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (5.4.1): Extracting archive
+  - Installing theseer/tokenizer (1.2.3): Extracting archive
+  - Installing sebastian/version (4.0.1): Extracting archive
+  - Installing sebastian/lines-of-code (2.0.2): Extracting archive
+  - Installing sebastian/environment (6.1.0): Extracting archive
+  - Installing sebastian/complexity (3.2.0): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (3.0.0): Extracting archive
+  - Installing phpunit/php-text-template (3.0.1): Extracting archive
+  - Installing phpunit/php-file-iterator (4.1.0): Extracting archive
+  - Installing phpunit/php-code-coverage (10.1.16): Extracting archive
+  - Installing phpunit/php-invoker (4.0.0): Extracting archive
+  - Installing phpunit/php-timer (6.0.0): Extracting archive
+  - Installing ramsey/collection (2.0.0): Extracting archive
+  - Installing spiral/roadrunner (v2024.2.1)
+  - Installing spiral/goridge (v4.2.0): Extracting archive
+  - Installing google/protobuf (v4.28.2): Extracting archive
+  - Installing roadrunner-php/roadrunner-api-dto (v1.9.0): Extracting archive
+  - Installing roadrunner-php/app-logger (1.2.0): Extracting archive
+  - Installing spiral/roadrunner-worker (v3.6.0): Extracting archive
+  - Installing roadrunner-php/centrifugo (v2.2.0): Extracting archive
+  - Installing ramsey/uuid (4.7.6): Extracting archive
+  - Installing roadrunner-php/lock (1.0.0): Extracting archive
+  - Installing sebastian/cli-parser (2.0.1): Extracting archive
+  - Installing sebastian/code-unit (2.0.0): Extracting archive
+  - Installing sebastian/recursion-context (5.0.0): Extracting archive
+  - Installing sebastian/exporter (5.1.2): Extracting archive
+  - Installing sebastian/diff (5.1.1): Extracting archive
+  - Installing sebastian/comparator (5.0.3): Extracting archive
+  - Installing sebastian/object-reflector (3.0.0): Extracting archive
+  - Installing sebastian/global-state (6.0.2): Extracting archive
+  - Installing sebastian/object-enumerator (5.0.0): Extracting archive
+  - Installing sebastian/type (4.0.0): Extracting archive
+  - Installing league/event (3.0.3): Extracting archive
+  - Installing spiral-packages/league-event (1.0.1): Extracting archive
+  - Installing symfony/process (v7.1.5): Extracting archive
+  - Installing psr/clock (1.0.0): Extracting archive
+  - Installing symfony/clock (v7.1.1): Extracting archive
+  - Installing nesbot/carbon (3.8.0): Extracting archive
+  - Installing butschster/cron-expression-generator (v1.10.2): Extracting archive
+  - Installing spiral-packages/scheduler (2.3.1): Extracting archive
+  - Installing yiisoft/injector (1.2.0): Extracting archive
+  - Installing yiisoft/strings (2.4.0): Extracting archive
+  - Installing yiisoft/http (1.2.0): Extracting archive
+  - Installing yiisoft/friendly-exception (1.1.0): Extracting archive
+  - Installing cebe/markdown (1.2.1): Extracting archive
+  - Installing alexkart/curl-builder (1.0.9): Extracting archive
+  - Installing yiisoft/error-handler (3.3.0): Extracting archive
+  - Installing spiral-packages/yii-error-handler-bridge (1.1.2): Extracting archive
+  - Installing spiral/data-grid (v3.0.0): Extracting archive
+  - Installing spiral/data-grid-bridge (v3.0.1): Extracting archive
+  - Installing cycle/orm (v2.9.0): Extracting archive
+  - Installing cycle/schema-renderer (1.2.0): Extracting archive
+  - Installing cycle/schema-builder (v2.9.0): Extracting archive
+  - Installing cycle/migrations (v4.2.3): Extracting archive
+  - Installing cycle/schema-migrations-generator (2.2.0): Extracting archive
+  - Installing cycle/annotated (v4.2.0): Extracting archive
+  - Installing spiral/cycle-bridge (v2.10.0): Extracting archive
+  - Installing symfony/var-dumper (v7.1.5): Extracting archive
+  - Installing buggregator/trap (1.11.0): Extracting archive
+  - Installing spiral/dumper (3.3.1): Extracting archive
+  - Installing spiral/nyholm-bridge (v1.3.0): Extracting archive
+  - Installing google/common-protos (4.8.3): Extracting archive
+  - Installing spiral/roadrunner-grpc (v3.4.0): Extracting archive
+  - Installing spiral/roadrunner-http (v3.5.1): Extracting archive
+  - Installing spiral/roadrunner-jobs (v4.6.0): Extracting archive
+  - Installing spiral/roadrunner-metrics (v3.2.0): Extracting archive
+  - Installing spiral/roadrunner-tcp (v4.1.0): Extracting archive
+  - Installing symfony/options-resolver (v7.1.1): Extracting archive
+  - Installing sentry/sentry (4.9.0): Extracting archive
+  - Installing php-http/curl-client (2.3.2): Extracting archive
+  - Installing spiral/sentry-bridge (v2.3.0): Extracting archive
+  - Installing symfony/http-client-contracts (v3.5.0): Extracting archive
+  - Installing symfony/http-client (v7.1.5): Extracting archive
+  - Installing symfony/filesystem (v7.1.5): Extracting archive
+  - Installing spiral/roadrunner-kv (v4.3.0): Extracting archive
+  - Installing symfony/yaml (v7.1.5): Extracting archive
+  - Installing composer/semver (3.4.3): Extracting archive
+  - Installing spiral/roadrunner-cli (v2.6.0): Extracting archive
+  - Installing roadrunner-php/version-checker (v1.0.1): Extracting archive
+  - Installing react/promise (v2.11.0): Extracting archive
+  - Installing grpc/grpc (1.57.0): Extracting archive
+  - Installing temporal/sdk (v2.11.0): Extracting archive
+  - Installing spiral/roadrunner-bridge (v3.7.0): Extracting archive
+  - Installing spiral/temporal-bridge (2.2.0): Extracting archive
+  - Installing phpunit/phpunit (10.5.37): Extracting archive
+  - Installing mockery/mockery (1.6.12): Extracting archive
+  - Installing spiral/testing (2.8.1): Extracting archive
+  - Installing spiral/validator (1.5.3): Extracting archive
+  - Installing spatie/array-to-xml (3.3.0): Extracting archive
+  - Installing netresearch/jsonmapper (v4.5.0): Extracting archive
+  - Installing fidry/cpu-core-counter (1.2.0): Extracting archive
+  - Installing felixfbecker/language-server-protocol (v1.5.3): Extracting archive
+  - Installing felixfbecker/advanced-json-rpc (v3.2.1): Extracting archive
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Extracting archive
+  - Installing composer/xdebug-handler (3.0.5): Extracting archive
+  - Installing amphp/amp (v2.6.4): Extracting archive
+  - Installing amphp/byte-stream (v1.8.2): Extracting archive
+  - Installing vimeo/psalm (5.26.1): Extracting archive
+25 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+108 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> Installer\Internal\Configurator::configure
+
+  Next steps:
+  1. Go to the project root directory
+
+     cd /Users/shanginn/Projects/spiral/spiral-default-array-cache-alias-bug/
+
+  2. Read more about the project configuration in the project readme file: /Users/shanginn/Projects/spiral/spiral-default-array-cache-alias-bug/README.md
+
+No security vulnerability advisories found.
+> php app.php encrypt:key -m .env
+New encryption key: def0000009b12c4344eca260cc6273a0fd00caf040578773d08baf74ff0487a49e87b75826b6665c83d2b3c5ec0e0b64436e644a6336ebe2f8ae9cf7ab979922aa723893
+Encryption key has been updated.
+> php app.php configure --quiet
+> rr get-binary --quiet
+> composer dump-autoload
+Generating autoload files
+Generated autoload files
+
+~/Projects/spiral                                                                                                                                 1m 1s  system 12:17:22
+❯ cd spiral-default-array-cache-alias-bug
+
+~/Projects/spiral/spiral-default-array-cache-alias-bug                                                                                                   system 12:17:32
+❯ ./vendor/bin/phpunit
+PHPUnit 10.5.37 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.10
+Configuration: /Users/shanginn/Projects/spiral/spiral-default-array-cache-alias-bug/phpunit.xml
+
+[Spiral\Core\Exception\Container\NotFoundException]
+Can't resolve `Spiral\Scheduler\JobsLocatorInterface`: undefined class or binding `array`.
+Container trace list:
+- action: 'resolve from binding'
+  alias: 'Spiral\Scheduler\JobsLocatorInterface'
+  scope: 'root'
+  context: Parameter #0 [ <required> Spiral\Scheduler\JobsLocatorInterface $locator ]
+  binding: Alias to `Spiral\Scheduler\JobsLocator`
+  - action: 'resolve from binding'
+    alias: 'Spiral\Scheduler\JobsLocator'
+    scope: 'root'
+    context: Parameter #0 [ <required> Spiral\Scheduler\JobsLocatorInterface $locator ]
+    binding: Deferred factory 'Spiral\Scheduler\Bootloader\SchedulerBootloader'->initJobsLocator()
+    - action: 'resolve from binding'
+      alias: 'Spiral\Scheduler\Mutex\JobMutexInterface'
+      scope: 'root'
+      context: Parameter #1 [ <required> Spiral\Scheduler\Mutex\JobMutexInterface $mutex ]
+      binding: Deferred factory 'Spiral\Scheduler\Bootloader\SchedulerBootloader'->initEventMutex()
+      - action: 'autowire'
+        alias: 'array'
+        context: null
+in vendor/spiral/framework/src/Core/src/Internal/Factory.php:359
+.                                                                   1 / 1 (100%)
+
+Time: 00:00.094, Memory: 20.00 MB
+
+OK (1 test, 2 assertions)
